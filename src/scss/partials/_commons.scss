@@ -1,0 +1,9 @@
+@mixin float($percentuale){
+    width: $percentuale;
+    float: left;
+}
+
+@mixin container{
+    max-width: 1150px;
+    margin: auto;
+}

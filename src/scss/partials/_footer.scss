@@ -1,0 +1,14 @@
+footer{
+    background: red;
+    height: 406px;
+    padding: 55px 0 50px;
+    @include container;
+
+    .footer_sinistra{
+        @include float(30%);
+    }
+
+    .footer_destra{
+        @include float(70%);
+    }
+}
